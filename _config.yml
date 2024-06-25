@@ -16,7 +16,7 @@ timezone:
 
 title: 我的技术博客 # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: 记录生活与技术分享python, c#, vue踩过的坑, 还有一些生活感悟 # a brief introduction of your site
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
