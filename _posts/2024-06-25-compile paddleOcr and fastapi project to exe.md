@@ -1,5 +1,5 @@
 ---
-title: asyncio 在同一个一步函数内部并发执行多个异步操作
+title: how to compile paddleOcr and fastapi project to exe
 date: 2024-06-24 12:00:00 +0800
 categories: [python,to-exe]
 tags: [auto-py-to-exe,python]
