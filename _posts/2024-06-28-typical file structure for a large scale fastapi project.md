@@ -1,8 +1,12 @@
-
+---
+title: typical file structure for a large scale fastapi project
+date: 2024-06-28 12:00:00 +0800
+categories: [halcon,bandpass-filtering]
+tags: [halcon, dip]
+---
 
 
 ### the recommended file structure is as follows:
-
 
 ```
 
