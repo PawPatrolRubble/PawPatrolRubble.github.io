@@ -9,10 +9,9 @@ tags: [halcon, dip]
 
 Bandpass filtering is a signal processing technique that allows frequencies within a specific range to pass through while attenuating frequencies outside this range. This technique is used to isolate a particular band of frequencies from a broader spectrum, enhancing or extracting specific features of interest in various applications such as audio processing, communication systems, and image processing.
 
+## Key Concepts
 
-##  Key Concepts
-
-### Frequency Domain:
+### Frequency Domain
 
 Signals can be represented in the frequency domain, where their components are analyzed based on their frequencies.
 Low frequencies correspond to slow changes or smooth areas, and high frequencies correspond to rapid changes or edges and noise.
@@ -30,8 +29,8 @@ Digital Bandpass Filters:
 Implemented using algorithms and digital signal processing techniques.
 Used in various digital applications, including audio processing, image processing, and data analysis.
 
-
 ### skeleton(operator)
 
 compute the skeleteton of a region
 skeleton computes the skeleton, i.e., the medial axis of the input regions. The skeleton is constructed in a way that each point on it can be seen as the center point of a circle with the largest radius possible while still being completely contained in the region.
+
