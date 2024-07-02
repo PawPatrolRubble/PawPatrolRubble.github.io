@@ -15,7 +15,7 @@ This error occurs when there are multiple foreign keys between two tables and sq
 
 To fix this error, we need to specify which foreign key to use in the relationship.
 
-```python   
+```python
 class User(SQLModel, table=True):
     #  other fields here
     documents_created: list["Document"] = Relationship(
