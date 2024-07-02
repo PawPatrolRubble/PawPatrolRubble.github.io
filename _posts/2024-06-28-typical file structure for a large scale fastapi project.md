@@ -1,12 +1,12 @@
 ---
 title: typical file structure for a large scale fastapi project
 date: 2024-06-28 12:00:00 +0800
-categories: [halcon,bandpass-filtering]
-tags: [halcon, dip]
+categories: [python,fastapi]
+tags: [python, file-structure, fastapi]
 ---
 
 
-### the recommended file structure is as follows:
+### the recommended file structure is as follows
 
 ```
 
@@ -79,7 +79,6 @@ project/
 
 ```
 
-
 ### Explanation of the Structure
 
 ### `app/`
@@ -104,11 +103,11 @@ project/
 - **`__init__.py`**: Initializes the API package.
 - **`deps.py`**: Dependency injection for the API routes.
 - **`v1/`**: API version 1.
-    - **`__init__.py`**: Initializes the v1 package.
-    - **`endpoints/`**: Contains endpoint modules.
-        - **`users.py`**: User-related endpoints.
-        - **`tasks.py`**: Task-related endpoints.
-        - **`projects.py`**: Project-related endpoints.
+  - **`__init__.py`**: Initializes the v1 package.
+  - **`endpoints/`**: Contains endpoint modules.
+    - **`users.py`**: User-related endpoints.
+    - **`tasks.py`**: Task-related endpoints.
+    - **`projects.py`**: Project-related endpoints.
 
 ### `app/schemas/`
 
